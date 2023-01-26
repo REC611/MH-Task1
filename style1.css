@@ -1,0 +1,44 @@
+* {
+    font-family: "Comic Sans MS";
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.logo {
+    width: 125px;
+    float: right;
+    position: absolute;
+    top: 150px;
+    right: 100px;
+
+}
+
+.titulo {
+    font-size: 270%;
+    color: black;
+    background-color: aliceblue;
+    border: 1.5px solid;
+    height: 200px;
+    background-image: url(./assets/design1_image1.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.h2subtitulos {
+    text-align-last: center;
+    background: local;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    list-style: none;
+    display: inline;
+}
+
+section, .contact {
+    position: absolute;
+    left: 200px;
+}
