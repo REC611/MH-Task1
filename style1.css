@@ -1,3 +1,4 @@
+/* Website Design 1*/
 * {
     font-family: "Comic Sans MS";
     box-sizing: border-box;
@@ -12,7 +13,6 @@
     position: absolute;
     top: 150px;
     right: 100px;
-
 }
 
 .titulo {
@@ -29,16 +29,27 @@
 .h2subtitulos {
     text-align-last: center;
     background: local;
+    background-size: 500px;
     background-color: black;
     color: white;
+
 }
 
 nav {
-    list-style: none;
-    display: inline;
+    font-size: larger;
+    position: relative;
+    top: 10px; left: 10px;
+    line-height: 50px;
+}
+nav>a{
+    display: block;
 }
 
-section, .contact {
+section,
+.contact {
+    line-height: 30px;
+    max-width: 70%;
     position: absolute;
+    top: 250px;
     left: 200px;
 }

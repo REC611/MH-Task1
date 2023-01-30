@@ -1,1 +1,69 @@
 /* Website Design 2*/
+* {
+    font-family: "Comic Sans MS";
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+
+}
+header{
+    height: 200px;
+    background-image: url(./assets/design1_image1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 50px;
+}
+header >h1{
+    padding-left: 10px;
+    position: relative;
+    bottom: 50px;
+}
+.logo{
+    width: 125px;
+    position: absolute;
+    top: 250px;
+}
+.h2subtitulos {
+    text-align-last: center;
+    background: local;
+    background-size: 500px;
+    background-color: white;
+    border: 1.5px black solid;
+    position: relative;
+    top: 75%;
+}
+nav {
+    font-size: larger;
+    float: right;
+    position: absolute;
+    top: 25px; right: 45px;
+    line-height: 50px;
+}
+nav >a{
+    border: 1.5px black solid;
+    background-color: #4471C4;
+    color:white;
+    padding: 3px;
+    margin: 1px; 
+    
+}
+a:hover{
+    background-color: #4471C4;
+}
+a:active{
+    background-color: #6FAC46;
+}
+section,
+.contact {
+    font-size: medium;
+    line-height: 30px;
+    max-width: 70%;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+u{
+    color: #4471C4;
+}
+
