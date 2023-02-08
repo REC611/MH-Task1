@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>MDHL - Sign Up</title>
+    <link rel="shortcut icon" href="./assets/MDHL-LOGO.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./assets/MDHL-LOGO.png" alt="MDHL-LOGO">
+        <h1 class="titulo">Mighty Ducks Hockey League</h1>
+        <h2 class="h2subtitulos">Registration Form</h2>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./schedule.html">Schedule</a>
+        <a href="./rules.html">Rules</a>
+        <a href="./about.html">About MDHL</a>
+        <a href="#">Sign Up</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+    <main class="formulario">
+        <form action="./show_data.html" method="get">
+            <fieldset class="personales">
+                <label for="name">Player's First Name:</label>
+                <input type="text" name="PlayerName" id="name">
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="Lastname" id="lastname">
+            </fieldset>
+            <fieldset class="personales">
+                <label for="address">Street Address:</label>
+                <input type="text" name="address" id="address" maxlength="120">
+            </fieldset>
+            <fieldset class="personales">
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city">
+                <label for="zipcode">Zip Code:</label>
+                <input type="number" name="zipcode" id="zipcode">
+            </fieldset>
+            <fieldset class="personales">
+                <label for="birthdate">Birth Date:</label>
+                <input type="date" name="birthdate" id="birthdate">
+            </fieldset>
+                <div>
+                    <h4>Which elementary school do you live near?</h4>
+                 </div>
+            <fieldset class="personales">
+                <legend><b>Closest School:</b></legend>
+                <input type="radio" name="school" id="AJ-Katzenmaier" value="AJ-Katzenmaier">
+                <label for="AJ-Katzenmaier">AJ Katzenmaier</label>
+                <input type="radio" name="school" id="Marjorie-P-Hart" value="Marjorie-P-Hart">
+                <label for="Marjorie-P-Hart">Marjorie P Hart</label>
+                <input type="radio" name="school" id="Greenbay" value="Greenbay">
+                <label for="Greenbay">Greenbay</label>
+                <br>
+                <input type="radio" name="school" id="North-Elementary" value="North-Elementary">
+                <label for="North-Elementary">North Elementary</label>
+                <input type="radio" name="school" id="Howard-A-Yeager" value="Howard-A-Yeager">
+                <label for="Howard-A-Yeager">Howard A Yeager</label>
+                <input type="radio" name="school" id="South-Elementary" value="South-Elementary"> 
+                <label for="South-Elementary">South Elementary</label>
+            </fieldset>
+            <fieldset class="personales">
+                <legend><b> What position(s) do you normally play? (ckeck all that apply)</b></legend>
+                <input type="checkbox" name="Forward" id="Forward">
+                <label for="Forward">Forward </label>
+                <input type="checkbox" name="Midfield" id="Midfield">
+                <label for="Midfield">Midfield</label>
+                <input type="checkbox" name="Defense" id="Defense">
+                <label for="Defense">Defense </label>
+                <input type="checkbox" name="Goalkeeper" id="Goalkeeper">
+                <label for="Goalkeeper">Goalkeeper</label>
+
+            </fieldset>
+            <fieldset class="personales">
+                <legend><b>Uniform Size:</b></legend>
+                <label for="talle">Size:</label>
+                <select name="talle" id="talle">
+                    <option value="XS">Youth-Small</option>
+                    <option value="S">Small</option>
+                    <option value="SM">Youth-Medium</option>
+                    <option value="M">Medium</option>
+                    <option value="SL">Youth-Large</option>
+                    <option value="L">Large</option>
+                    <option value="XL">Extra-Large</option>
+                </select>
+            </fieldset>
+            <article>
+                <div>
+                    <h4>Permission to Play</h4>
+                </div>
+                <div class="permisos">
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by
+                        all the
+                        rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical
+                        injury
+                        associated with hockey and in consideration for the “League” accepting the registrant for its
+                        hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+                        their employees and associated personnel and volunteers,including the facilities used for
+                        practices and games, against any claim by or on behalf of the registrant as a result of the
+                        registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                        activities,which transportation.
+                        <br>
+                        By signing below, I here by agree and authorize the above. In addition, by signing below, lalso
+                        acknowledge that I have read the cancellation policy and agree to its terms
+                    </p>
+                </div>
+            </article>
+            <fieldset class="personales">
+                <label for="signature">Parent/GuardianSignature:</label>
+                <input type="text" name="signature" id="signature">
+                <br>
+                <label for="datetoday">Date:</label>
+                <input type="date" name="datetoday" id="datetoday">
+            </fieldset>
+            <input class="btn" type="submit" value="Sign Up">
+            <input class="btn" type="reset" value="Clear">
+        </form>
+
+
+    </main>
+    <!-- <footer>All rights reserved by © Puebla Badano Julian 2023</footer> -->
+</body>
+
+</html>

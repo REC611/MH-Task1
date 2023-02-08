@@ -1,0 +1,135 @@
+/* Website Design 3*/
+* {
+    font-family:'Trebuchet MS';
+    box-sizing: border-box;
+    padding: 0;
+    margin: 5px;
+    background-color: #e2e2e2;
+}
+.logo {
+    width: 150px;
+    border: 1.5px black dotted;
+    float: left;
+    position: relative;
+    top: 350px; left: 10px;
+    background-color: transparent;
+}
+.titulo {
+    font-size: 300%;
+    color: white;
+    background-image: url(./assets/design1_image2.jpg);
+    background-size: cover;
+    background-position: 0px -125px;
+    border: 1.5px solid;
+    height: 200px;
+}
+.h2subtitulos {
+    text-align-last: center;
+    background: local;
+    background-size: 500px;
+    background-color:#66ADA5;
+    border: 1.5px black solid;
+    position: relative;
+    top: 75%;
+}
+nav {
+    font-size: larger;
+    float: right;
+    background-color: transparent;
+    position: relative;
+    top: -100px; right: 75px;
+    line-height: 50px;
+}
+nav >a{
+    background-color: transparent;
+    color:white;
+    padding: 3px;
+    margin: 1px;
+}
+a:hover{
+    background-color: #66ADA5;
+}
+.seccion,
+.contact {
+    font-size: medium;
+    line-height: 30px;
+    max-width: 70%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+u{
+    color: #4471C4;
+}
+.rules{
+    text-align: center;
+}
+li,
+ul{
+    margin-left: 50px;
+}
+.subrayado{
+    color: black;
+}
+.table-general{
+    display: grid;
+    place-content: center;
+}
+th, td{
+    padding: 5px;
+    border: 1.5px black solid;
+}
+.email-schedule{
+    float: right;
+    position: relative;
+    top: -50px;
+}
+.list-desord{
+    list-style-type:circle;
+}
+.formulario{
+    font-size: medium;
+    background-color: #66ADA5;
+    line-height: 30px;
+    max-width: 35%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    border: 1.5px black solid;
+}
+.personales{
+    border: none;
+}
+.btn{
+    padding: 10px;
+    font-size: small;
+}
+.btn:hover{
+    background: #66ADA5;
+}
+iframe{
+    display: none;
+}
+.Location{
+    color: blue;
+}
+.Location:hover>iframe{
+    display: block;
+    position: absolute;
+    height: 29%;
+    outline: 1px solid black;
+}
+.cuadroimg{
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 350px;
+    left: 400px;
+
+}
+.imagenH{
+    border: 1.5px solid black;
+    width: 250px;
+    height: 250px;
+}
